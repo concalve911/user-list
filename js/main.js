@@ -7,7 +7,7 @@ const currentYear = new Date().getFullYear();
 // Создание Date(), который отображает текущею дату и время
 // getFullYear() возвращает полный год в формате 4 цифр
 
-const birthdayDate = prompt("What is your birthday date?");
+const birthdayDate = prompt("What is your birthday year?");
 let age;
 if (birthdayDate === null) {
   alert("You canceled!");
